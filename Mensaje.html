@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Indice Tarea Parcial I-Programacion V</title>
+</head>
+
+<body class="position-relative">
+    <div class="container-sm container-autofix position-absolute top-50 start-50 translate-middle width-100">
+        <div class="container apply-shadow p-5">
+            <h1 class="h1 text-center mb-4">Obtener mensaje</h1>
+
+            <div class="input-group">
+                <textarea class="form-control" id="textAreaMessage"></textarea>
+            </div>
+            <div id="messages" class="input-group mb-3 mt-4 show-text">
+                <textarea  class="form-control" id="letterCounter" disabled></textarea>
+                <textarea class="form-control" style="color: green;" id="greenText" disabled></textarea>
+                <!-- <input type="text" class="form-control" style="color: green;" id="greenText" disabled> -->
+                <!-- <input type="text" class="form-control" id="letterCounter" disabled> -->
+            </div>
+            <div class="container text-center d-flex mt-4">
+                <button type="button" class="btn btn-primary buttons mx-2" onclick="GetMessage()">Aceptar</button>
+                <button type="button" class="btn btn-secondary buttons"
+                    onclick="NavigateTo('IndexTarea1.html')">Volver</button>
+            </div>
+        </div>
+</body>
+<script src="js/navigation.js"></script>
+<script src="js/exercises.js"></script>
+
+</html>

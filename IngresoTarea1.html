@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Ingreso Tarea I Programación IV</title>
+</head>
+
+<body class="position-relative">
+    <div class="container-sm container-autofix position-absolute top-50 start-50 translate-middle width-100">
+        <div class="container user-login apply-shadow">
+            <div class="container">
+                <div class="container mb-5 text-center"><img class="img-fluid" src="images/lock.jpg"></div>
+                <form>
+                    <div class="mb-3 ">
+                        <label for="exampleInputEmail1" class="form-label">Usuario de Sistema</label>
+                        <input class="form-control" id="username">
+                    </div>
+                    <div class="mb-3 ">
+                        <label class="form-label">Centro de Salud</label>
+                        <select class="form-select" id="selectHealthCenter">
+                            <option value="1">EBAIS HOME CREEK</option>
+                            <option value="2">Hospital MEXICO</option>
+                            <option value="3">Hospital Monseñor Sanabria</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 ">
+                        <label for="exampleInputPassword1" class="form-label">Clave</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="alert alert-danger mb-3 hide-alert text-center" id="alert" role="alert">
+                        
+                      </div>                      
+                    <div class="text-center">
+                        <div>
+                            <button type="button" class="btn btn-primary buttons" id="signIn">Continuar</button>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-secondary buttons">Cancelar</button>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/login.js"></script>
+<script src="js/alert.js"></script>
+<script src="js/navigation.js"></script>
+
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Indice Tarea Parcial I-Programacion V</title>
+</head>
+
+<body class="position-relative">
+    <div class="container-sm container-autofix position-absolute top-50 start-50 translate-middle width-100">
+        <div class="container apply-shadow p-5">
+            <h1 class="h1 text-center mb-4">Obtener genero</h1>
+            <div class="mb-3 ">
+                <label class="form-label">Centro de Salud</label>
+                <select class="form-select" id="selectGender">
+                    <option value="Femenino">Ana</option>
+                    <option value="Masculino">Pedro</option>
+                    <option value="Masculino">Afiche</option>
+                    <option value="Masculino">Toro</option>
+                    <option value="Femenino">Obeja</option>
+                    <option value="Femenino">Vaca</option>
+                    <option value="Masculino">Coche</option>
+                    <option value="Femenino">Rosa</option>
+                    <option value="Masculino">Sombrero</option>
+                    <option value="Femenino">Abeja</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <textarea class="form-control" id="textAreaGender" disabled></textarea>
+              </div>
+              <div class="container text-center d-flex mt-4">
+                <button type="button" class="btn btn-primary buttons mx-2" onclick="GetGender()">Mostrar genero</button>
+                <button type="button" class="btn btn-secondary buttons" onclick="NavigateTo('IndexTarea1.html')">Volver</button>
+            </div>
+        </div>
+</body>
+<script src="js/navigation.js"></script>
+<script src="js/exercises.js"></script>
+
+</html>
