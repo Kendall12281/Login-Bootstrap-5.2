@@ -11,6 +11,7 @@ signInButton.addEventListener("click",function(){
     }else{
         if(username == "UTN" && password == "MAVERICK" && healtCenter == 3){
             ShowAlert(true,"Datos ingresados validos,\nTransfiriendo, favor espere ... ","alert-success");
+            sessionStorage.setItem("UTN","True");
             setTimeout(() => {  NavigateTo("IndexTarea1.html"); }, 1000);
             
         }else{
